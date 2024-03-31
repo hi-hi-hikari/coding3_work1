@@ -1,8 +1,9 @@
-let total =1;
-for(let i =1; i<=10; i++){
-  total = total + 1;
-  if(total >= 20){
-  console.log("20以上");
-  } else if(total <= 20){
-  console.log("20以下");}
+let total =0;
+for(i =1; i<=10; i++){
+  total  =total + i;
+}
+if(total >= 20){
+console.log("20以上");
+} else{
+console.log("20以下");
 }
